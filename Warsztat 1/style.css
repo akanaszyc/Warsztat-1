@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    width: 100vw;
+}
+
+.container{
+    width: 1352px;
+}
+
+.header .container{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
