@@ -1,0 +1,81 @@
+.stats {
+    width: 100vw;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.stats .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.stats__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 266px;
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+.stats__item__one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+}
+.stats__item__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.stats__item__three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.stats__item__number{
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.stats__item__des{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 5px;
+    color: var(--color-grey);
+}
+
+.stats__header{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.stats__item__one:before{
+    content:"";
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #FB3B64;
+    position: absolute;
+    /*make those fucking circles*/
+}
