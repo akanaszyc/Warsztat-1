@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
     box-shadow: 0 3px 6px -6px #00000029;
 }
 
@@ -29,7 +30,7 @@
 .header__nav__list{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 
 .header__nav__list a{
@@ -40,7 +41,7 @@
     color: var(--color-grey);
     cursor: pointer;
     outline: none;
-    padding: 35px;
+    padding: 26px;
 }
 
 .header__nav__list a:hover{
@@ -55,4 +56,6 @@
     font-size: 32px;
     line-height: 37;
     color: #08A6E4;
+
+
 }

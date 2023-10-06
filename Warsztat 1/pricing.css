@@ -1,0 +1,189 @@
+.pricing {
+    width: 100vw;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.pricing .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px 0 180px;
+    gap: 30px;
+    width: 1266px;
+}
+
+.pricing__header{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.pricing__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.pricing__item__one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 372px;
+    height: 461px;
+    padding: 34px 110px 60px 110px;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+}
+
+.pricing__item__one__header{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing__item__one__price{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    color: var(--color-redish);
+}
+
+.pricing__item__one__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.pricing__item__one__list li{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-black);
+}
+.checkmark{
+    padding: 10px;
+}
+.pricing__item__one__button{
+    outline: none;
+    padding: 16px 57px;
+    background-color: var(--color-redish);
+    border: none;
+    border-radius: 23px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--color-white);
+
+}
+.pricing__item__two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 405px;
+    height: 500px;
+    padding: 34px 130px 60px 130px;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing__item__two__header{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing__item__two__price{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    color: var(--primary-color);
+}
+.pricing__item__two__text{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pricing__item__two__list li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-black);
+}
+.pricing__item__two__button {
+    outline: none;
+    padding: 16px 57px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 23px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--color-white);
+}
+.pricing__item__three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 372px;
+    height: 461px;
+    padding: 34px 110px 60px 110px;
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+}
+
+.pricing__item__three__header{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing__item__three__price {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    color: var(--color-green);
+}
+.pricing__item__three__text{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.pricing__item__three__list li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.pricing__item__three__button {
+    outline: none;
+    padding: 16px 57px;
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 23px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--color-white);
+}
