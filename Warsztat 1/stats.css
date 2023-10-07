@@ -69,13 +69,39 @@
     font-size: 36px;
     margin-top: 100px;
 }
-
-.stats__item__one:before{
-    content:"";
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    background-color: #FB3B64;
+.stats__icon__one{
     position: absolute;
-    /*make those fucking circles*/
+    top: 0;
+    left: 45%;
+}
+.stats__item__one__circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+    background-color: var(--color-redish);
+}
+.stats__icon__two{
+    position: absolute;
+    top: 14px;
+    left: 47%;
+}
+.stats__item__two__circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+    background-color: var(--primary-color);
+}
+.stats__icon__three{
+    position: absolute;
+    top: 6px;
+    left: 50%;
+}
+.stats__item__three__circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+    background-color: var(--color-green);
 }

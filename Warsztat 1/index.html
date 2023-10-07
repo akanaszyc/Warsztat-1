@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="benefits.css">
     <link rel="stylesheet" href="pricing.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
@@ -46,17 +47,23 @@
         <h2 class="stats__header">The most popular sales platform in country</h2>
         <div class="stats__items">
             <div class="stats__item__one">
+                <div class="stats__item__one__circle">
                 <img src="assets/Person.svg" alt="person" class="stats__icon__one">
+                </div>
                 <p class="stats__item__number">100000+</p>
                 <p class="stats__item__des">daily entries</p>
             </div>
             <div class="stats__item__two">
+                <div class="stats__item__two__circle">
                 <img src="assets/Eye.svg" alt="person" class="stats__icon__two">
+                </div>
                 <p class="stats__item__number">2000000+</p>
                 <p class="stats__item__des">seen products every day</p>
             </div>
             <div class="stats__item__three">
+                <div class="stats__item__three__circle">
                 <img src="assets/Catalog.svg" alt="person" class="stats__icon__three">
+                </div>
                 <p class="stats__item__number">10000+</p>
                 <p class="stats__item__des">added posts daily</p>
             </div>
@@ -70,14 +77,18 @@
             <h3 class="benefits__item__one__header">Be always first</h3>
             <p class="benefits__item__one__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
+            <div class="benefits__item__one--imgsec">
             <img src="assets/Macbook.png" alt="macbook" class="benefits__item__one--img">
+            </div>
         </div>
         <div class="benefits__item__two">
             <div class="benefits__item__two--text">
                 <h3 class="benefits__item__two__header">Your shop is where you are!</h3>
                 <p class="benefits__item__two__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <img src="assets/iPhone.png" alt="iphone" class="benefits__item__two--img>">
+            <div class="benefits__item__two--imgsec">
+            <img src="assets/iPhone.png" alt="iphone" class="benefits__item__two--img">
+            </div>
         </div>
         <div class="benefits__item__three">
             <div class="benefits__item__three--text">
@@ -153,11 +164,25 @@
                <input type="text" class="contact__form__name" id="text"/>
                <label for="email" class="email__label">EMAIL</label>
                <input type="email" class="contact__form__email" id="email"/>
-               <label for="checkbox" class="form__checkbox"></label>
-                   <input type="checkbox" class="form__checkbox" id="checkbox">
-                   <span>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</span>
+               <label for="checkbox" class="form__checkbox">
+                   <input type="checkbox" class="form__checkbox__mark" id="checkbox">
+                   <span class="form__checkbox"></span>
+                   <p class="checkbox__text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+               </label>
+               <button class="contact__form__btn">Send</button>
            </form>
-            <button class="contact__form__btn">Send</button>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="footer__legal">
+            <p class="footer__legal__logo">BestShop</p>
+            <p class="footer__legal__copy">© 2019 BestShop LTD, All Rights Reserved</p>
+        </div>
+        <div class="footer__links">
+            <a href="#"></a><img src="assets/Twitter.svg" alt="Twitter logo" class="footer__links__twitter">
+            <a href="#"></a><img src="assets/Facebook.svg" alt="Facebook logo" class="footer__links__facebook">
         </div>
     </div>
 </section>
