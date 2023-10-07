@@ -1,0 +1,100 @@
+.contact {
+    width: 100vw;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+.contact .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 896px;
+    height: 376px;
+    margin-top: 150px;
+    gap: 40px;
+}
+.contact__info{
+    width: 342px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact__info__details{
+    display: flex;
+    flex-direction: row;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    gap: 15px;
+}
+.form__checkbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.contact__info__header{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 49px;
+}
+.contact__info__text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.contact__info__details--email{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.contact__info__details--phone{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.contact__email__img{
+    padding-right: 10px;
+}
+.contact__phone__img{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.name__label{
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.email__label{
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--primary-color);
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.contact__form__name{
+    border-bottom: 1px solid #95989A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+}
+.contact__form__email{
+    border-bottom: 1px solid #95989A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+}

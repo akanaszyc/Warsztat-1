@@ -63,6 +63,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     gap: 15px;
+    margin-top: 30px;
 }
 .pricing__item__one__list li{
     font-family: "Open Sans", sans-serif;
@@ -84,6 +85,8 @@
     font-weight: bold;
     font-size: 13px;
     color: var(--color-white);
+    position: relative;
+    bottom: -75px;
 
 }
 .pricing__item__two{
@@ -118,6 +121,13 @@
     font-weight: bold;
     font-size: 12px;
 }
+.pricing__item__two__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 30px;
+}
 
 .pricing__item__two__list li {
     font-family: "Open Sans", sans-serif;
@@ -136,6 +146,8 @@
     font-weight: bold;
     font-size: 13px;
     color: var(--color-white);
+    position: relative;
+    bottom: -80px;
 }
 .pricing__item__three{
     display: flex;
@@ -168,6 +180,13 @@
     font-weight: bold;
     font-size: 12px;
 }
+.pricing__item__three__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 30px;
+}
 .pricing__item__three__list li {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -186,4 +205,6 @@
     font-weight: bold;
     font-size: 13px;
     color: var(--color-white);
+    position: relative;
+    bottom: -65px;
 }
